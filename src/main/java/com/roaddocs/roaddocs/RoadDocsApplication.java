@@ -10,4 +10,6 @@ public class RoadDocsApplication {
 		SpringApplication.run(RoadDocsApplication.class, args);
 	}
 
+	public record Greeting(long id, String content) {}
+
 }
